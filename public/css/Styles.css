@@ -1,0 +1,355 @@
+body{
+    background-color: aqua;
+}
+
+.primary-color *{
+    color: rgb(255, 255, 255);
+}
+
+.segundary-color{
+    background-color: #28943f;
+    color: white;
+}
+.primary-color{
+    background-color: #3b3b3b;
+    color: white;
+    padding: 0 2.1875rem;
+}
+
+.img-style{
+    width: 100%;
+    height: 90%;
+    box-shadow: 1px 1px 2px rgb(51, 49, 49), 0 0 1em rgb(253, 253, 255), 0 0 0.2em rgb(69, 88, 118);
+    border-radius: 15px;
+}
+
+.content-wrapper{
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.tittle{
+    font-style: italic;
+    font-family: revert;
+    font-weight: bold;  
+    font-size: 5.5rem;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(51, 49, 49), 0 0 1em rgb(253, 253, 255), 0 0 0.2em rgb(69, 88, 118);
+}
+
+.tittle-black{
+    font-style: italic;
+    font-family: revert;
+    font-weight: bold;  
+    font-size: 5.5rem;
+    color: rgb(0, 0, 0);
+}
+
+/* *******************posiblemente la quite****** */
+.page-tittle{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-semitono-azul-blanco_53876-114466.jpg?w=1380&t=st=1688589050~exp=1688589650~hmac=fde80f7b22ebfa308b4636fc8bdf31917dfa1113891d4eaf1a0974d1e6a762c4);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.crumb{
+    position: relative;
+    display: ruby;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.30);
+    list-style: none;
+    outline: none;
+    color: white;
+}
+
+.crumb > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* clase que se agrega a los contenedor para que las imagenes tengan efecto al pasar el mouse sobre ellas */
+.hovering img{
+    width: 49%;
+    transition: width .5s;
+}
+.hovering img:hover{
+    width: 80%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/***************************************** NAVBAR ************************************************* */
+#logo{
+    width: 35%;
+    margin: 1rem;
+}
+
+.nav-item  a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#navbarSupportedContent{
+    align-items: center;
+    font-size: 1.1rem;
+    justify-content: space-between;
+    box-shadow: 5px 5px 15px gray;
+    margin: 0rem 0rem 2rem 0rem;
+    padding: 0 2.1900rem;
+}
+
+#navbarSupportedContentUp{
+    text-align: right;
+    text-decoration: none;
+}
+
+#navbarSupportedContentUp *{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    margin: 0.2rem;
+}
+
+#nav{
+    padding: 0px;
+}
+
+#nav-container{
+    padding: 0rem;
+}
+/***************************************** FIN NAVBAR ************************************************* */
+
+/***************************************** SLIDER ************************************************* */
+.carousel-img {
+    height: 700px;
+    width: 90%;
+}
+/***************************************** FIN SLIDER ************************************************* */
+
+
+/***************************************** FOOTER SLIDER ************************************************* */
+.img-footer {
+    height: 400px;
+    width: 90%;
+}
+
+#footer{
+    font-size: 0.9rem;
+    margin-top: 0;
+    border-top: 0;
+    padding: 0.7rem;
+    font-family: "Gill Sans", sans-serif;
+    text-decoration: none;
+}
+
+#footer *{
+    text-decoration: none;
+}
+
+#footer-slider{
+    width: 100%;
+}
+
+/*****************************************FIN FOOTER  SLIDER ************************************************* */
+
+
+/* estas propiedades se le agregan a los row */
+/* align-items-center  para centrar verticalmente
+justify-content-md-center para centrar horizontalmente */
+
+
+/*
+////////////////////////////////////////////////////////////////
+        CARDS DASHBOARD
+///////////////////////////////////////////////////////////////
+*/
+
+.card_head {
+width: 300px;
+height: 70px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+overflow: hidden;
+margin: 0 0 40px 0;
+background-color: white;
+}
+
+.card-top-title{
+text-transform: uppercase;
+margin-bottom: .25rem !important;
+}
+
+.card_dashboard {
+width: 300px;
+height: 370px;
+box-shadow: 0 21px 12px 3px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+overflow: hidden;
+margin: 0 30px 50px 0;
+background-color: white;
+}
+
+.card-image {
+position: relative;
+overflow: hidden;
+height: 55%;
+}
+
+.card-image img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.6s;
+}
+
+.card-image-back {
+width: 100%;
+height: 35%;
+}
+
+.card-image-back img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.6s;
+}
+
+.card-actions-back {
+display: flex;
+justify-content: center;
+padding: 1px;
+height: 37%;
+}
+
+.card-content-back {
+padding: 16px;
+background-color: #f1f1f1;
+height: 30%;
+}
+
+.card-image img:hover {
+transform: scale(1.1);
+}
+
+.card-content {
+padding: 16px;
+background-color: #f1f1f1;
+height: 29%;
+}
+
+.card-title {
+font-size: 26px;
+margin: 0 0 8px 0;
+}
+
+
+.card-description {
+font-size: 16px;
+color: gray;
+line-height: 1.5;
+}
+
+.card-button {
+color: rgb(255, 253, 253); /* letras del boton*/
+padding: 10px 5px;
+font-size: 14px;
+cursor: pointer;
+border-radius: 4px;
+text-decoration: none;
+margin: 1px 20px;
+z-index: 2;
+outline: 2px solid #ffffff; /* estilo del borde del boton*/
+overflow: hidden;
+transition: color 1s;
+position: relative;
+}
+
+.card-actions {
+display: flex;
+justify-content: center;
+padding: 8px;
+height: 16%;
+}
+
+.card-button:hover {
+color: rgb(0, 0, 0); /* cambia el color de la letra del boton*/
+
+}
+
+.card-button:before {
+content: "";
+position: absolute;
+top: 0;
+left: -13px;
+width: 0;
+height: 100%;
+background-color: #ffffff; /*color de fondo de la animacion*/
+transform: skewX(25deg);
+z-index: -1;
+transition: width 1s;
+}
+
+.card-button:hover::before {
+width: 200%;
+}
+
+/*************** FIN CARDS ***************/
+
+
+/*///////////////////////////////////////////////////////////////
+        FLIP CARDS
+///////////////////////////////////////////////////////////////
+*/
+.flip-card {
+transform-style: preserve-3d;
+perspective: 1000px;
+}
+
+.flip-card-front,
+.flip-card-back {
+backface-visibility: hidden;
+transform-style: preserve-3d;
+transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.flip-card-front {
+transform: rotateY(0deg);
+}
+
+.flip-card-back {
+position: absolute;
+top: 0;
+left: 0;
+transform: rotateY(180deg);
+}
+
+.flip-card-front::after,
+.flip-card-back::after {
+width: 100%;
+height: 100%;
+background-color: #0a0a0a;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0.0;
+}
+
+.flip-on-front {
+transform: rotateY(-180deg);
+}
+
+.flip-on-back {
+transform: rotateY(0deg);
+}
+/******************* FIN FLIP CARDS*********************/
+  

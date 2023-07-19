@@ -1,0 +1,6 @@
+1800x500 imagenes del banner
+1500x300 inicio-img-1
+1080x600 inicio-img-2
+750x1000 inicio-img-3
+830x590  inicio-img-4 
+480x334 banner-footer-1
